@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Leonard Responsive Portfolio</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark nav-color">
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html"
+          ><h2 class="display-4">Matthew Leonard</h2></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <!-- changed mr to ml to put links on the right -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home"></i></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Portfolio.html"><i class="fas fa-folder-open"></i><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html"><i class="fas fa-envelope-open-text"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://github.com/leonardmk1/"> <i class="fab fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/matthewkleonard/"> <i class="fab fa-linkedin"></i></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="Resume, Matthew Leonard.pdf"> <i class="fas fa-file"></i></a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://twitter.com/home?lang=en"> <i class="fab fa-twitter"></i></a>
+           </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main content -->
+    <div class="container main-content mt-3">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-5 text-center">Portfolio</h1>
+          <hr />
+          <p class="lead">
+            <div class="container">
+              <div class="row">
+                <!-- two columns on small and three columns on medium and up -->
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <a href="https://reeledin.herokuapp.com/">
+                  <img class="w-100 shadow-lg" src="https://i.picsum.photos/id/147/330/275.jpg" alt="Project 2">
+                    <h3 class="img-title position-realtive shadow-lg py-3 purple-gradient project-link">ReeledIn</h3></a>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <a href="https://leonardmk1.github.io/FindaLyric/">
+                  <img class="w-100 shadow-lg" src="FindaLyric.jpeg" alt="Project 1">
+                    <h3 class="img-title position-realtive shadow-lg py-3 purple-gradient project-link">Find a Lyric</h3></a>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <a href="https://leonardmk1.github.io/Weather-Dashboard/">
+                  <img class="w-100 shadow-lg" src="https://i.picsum.photos/id/123/330/275.jpg" alt="weather">
+                    <h3 class="img-title position-realtive shadow-lg py-3 purple-gradient">Weather Dashboard</h3></a>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <a href="https://leonardmk1.github.io/Web-APIs-Code-Quiz/">
+                  <img class="w-100 shadow-lg" src="img_js.png" alt="quiz">
+                    <h3 class="img-title position-realtive shadow-lg py-3 purple-gradient">Javascript Quiz</h3></a>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <a href="https://leonardmk1.github.io/Third-Party-APIs-Work-Day-Scheduler/">
+                  <img class="w-100 shadow-lg" src="Third-party-apis-homework-demo.gif" alt="Third-party-apis">
+                    <h3 class="img-title position-realtive shadow-lg py-3 purple-gradient">Workday Scheduler</h3></a>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4">
+                    <a href="https://leonardmk1.github.io/Password-Generator/">
+                  <img class="w-100 shadow-lg" src="Password Generator.png" alt="password">
+                    <h3 class="img-title position-realtive shadow-lg py-3 purple-gradient">Password Generator</h3></a>
+                </div>
+                
+              </div>
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer footer-color text-center text-light pt-3">
+      <div class="container">
+        <span class="text-white">Copyright 2020</span>
+      </div>
+    </footer>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>  </body>
+</html>

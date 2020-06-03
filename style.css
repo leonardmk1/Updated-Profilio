@@ -1,0 +1,37 @@
+* .footer {
+  height: 72px;
+}
+.main-content {
+  min-height: calc(100vh - 160px);
+}
+.links {
+  text-decoration: none;
+}
+.img-title {
+  color: #fff;
+  text-align: center;
+  bottom: 90px;
+  position: relative;
+}
+
+#me {
+  width: 100% !important;
+}
+
+@media (min-width: 768px) {
+  #me {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #me {
+    width: 25% !important;
+  }
+}
+.nav-color {
+  background-image: linear-gradient(#4a148c, #ff9800);
+}
+.footer-color{
+    background-image: linear-gradient(#ff9800,#4a148c);
+}
